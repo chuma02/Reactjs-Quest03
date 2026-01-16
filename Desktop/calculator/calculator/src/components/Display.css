@@ -1,0 +1,17 @@
+.display {
+  background-color: white;
+  color: black;
+  font-size: 2em;
+  padding: 20px;
+  text-align: right;
+  margin-bottom: 10px;
+  min-height: 40px;
+  overflow: hidden;
+}
+
+@media (max-width: 480px) {
+  .display {
+    font-size: 1.5em;
+    padding: 15px;
+  }
+}

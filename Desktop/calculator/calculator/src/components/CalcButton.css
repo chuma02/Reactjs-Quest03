@@ -1,0 +1,50 @@
+.calc-button {
+  background-color: lightgray;
+  color: black;
+  border: none;
+  padding: 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.calc-button:hover {
+  background-color: silver;
+}
+
+.calc-button:active {
+  background-color: darkgray;
+}
+
+.operator {
+  background-color: greenyellow;
+  color: black;
+}
+
+.operator:hover {
+  background-color: #90ee90;
+}
+
+.operator:active {
+  background-color: #32cd32;
+}
+
+.clear {
+  background-color: #d9534f;
+  color: white;
+}
+
+.clear:hover {
+  background-color: #c9302c;
+}
+
+.clear:active {
+  background-color: #ac2925;
+}
+
+@media (max-width: 480px) {
+  .calc-button {
+    padding: 15px;
+    font-size: 1em;
+  }
+}
