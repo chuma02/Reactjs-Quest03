@@ -1,0 +1,10 @@
+{
+  "name": "06-ai-integration",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix duolingo-ai-classroom run dev",
+    "build": "npm --prefix duolingo-ai-classroom run build",
+    "start": "npm --prefix duolingo-ai-classroom run start",
+    "lint": "npm --prefix duolingo-ai-classroom run lint"
+  }
+}
